@@ -1,11 +1,12 @@
 <!-- Hero / Title -->
 <h1 align="center">Manoa Lost &amp; Found</h1>
-<p align="center"><em>A UH Mānoa community app to report, browse, and recover lost items — built by students for students.</em></p>
+<p align="center"><em>A UH Manoa community app to report, browse, and recover lost items — built by students for students.</em></p>
 
 <p align="center">
   <a href="https://manoa-lost-found.github.io"><b>Live Site</b></a> ·
-  <a href="https://github.com/manoa-lost-found/manoa-lost-found"><b>View on GitHub</b></a> ·
+  <a href="https://github.com/orgs/manoa-lost-found/repositories"><b>View on GitHub</b></a> ·
   <a href="https://github.com/manoa-lost-found/manoa-lost-found/issues/new"><b>Open an Issue</b></a>
+  <a href="https://docs.google.com/document/d/1SYR9UNlJHreSRPiQces7M1lXAMndSw5lAGJjuAcbBvU/edit?usp=sharing"><b>Team Contract</b></a>
 </p>
 
 <p align="center">
@@ -15,11 +16,12 @@
 </p>
 
 **Proposers:** Jermaine Bruno • Michael Lau • Brandon Nguyen • Edward Uzueta • Justin Lai  
-**Date:** November 12, 2025
+**Date:** November 20, 2025
 
 ---
 
 ## Table of Contents
+- [Deployment] (#-deployment)
 - [Overview](#-overview)
 - [Roles & Capabilities](#-roles--capabilities)
 - [App Features (M1 Scope)](#-app-features-m1-scope)
@@ -73,16 +75,20 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 
 ## 💡 App Features (M1 Scope)
 
+<a href="https://github.com/orgs/manoa-lost-found/projects/1/views/7"><b>M1 Project Page</b></a>
+
 - UH-authenticated access (campus-only)
-- Tabs for **Lost** and **Found** item feeds  
-- Advanced filters: category, date, building, keyword  
-- Create/Edit/Delete posts with photo uploads  
-- Notification system for potential matches  
-- Admin verification dashboard  
+- Tabs for **Lost** and **Found** item feeds
+- Advanced filters: category, date, building, keyword
+- Create/Edit/Delete posts with photo uploads
+
+> M1 focuses on **design and functionality**
+
+## ➡️ Future Features
+- Notification system for potential matches
+- Admin verification dashboard
 - “How to Turn In Items” instructions page  
 - Locations directory (Campus Center, Library, etc.)  
-
-> M1 focuses on **design, data model, and mockups** (no backend required yet).
 
 ---
 
@@ -102,47 +108,81 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 
 ---
 
-## 👣 User Guide (Mockup Walkthrough)
+## 👣 User Guide (Walkthrough)
 
 ### Landing Page  
-**[IMAGE: mockup-landing.jpg]**
+<p align="center">
+  <img src="public/landing.png" alt="Landing Page"
+  <img src="public/user-signin.png" alt="User Sign in Page">
+</p>
 
 Landing → Login (UH SSO) → Personalized Dashboard.
 
 ### Lost/Found Feed with Filters  
-**[IMAGE: mockup-feed.jpg]**
+<p align="center">
+  <img src="public/user-feed.png" alt="User Items Feed Page"
+</p>
 
 Shows Lost and Found items with filters (category, date, building, keyword).
 
 ### User Dashboard (My Lost / My Found / Matches)  
-**[IMAGE: mockup-dashboard.jpg]**
+<p align="center">
+  <img src="public/mockup-dashboard.png" alt="User Dashboard Mockup"
+</p>
 
-Displays the user’s Lost and Found posts plus alerts for matches.
+AI-Generated Mockup that displays the user’s Lost and Found posts plus alerts for matches.
 
 ### Post Lost Item Form  
-**[IMAGE: mockup-post-lost.jpg]**
+<p align="center">
+  <img src="public/post-lost.png" alt="Posting a Lost Item Page"
+</p>
 
-Form to report a lost item with photo upload, description, and last-seen location/time.
+AI-Generated Mockup form to report a lost item with photo upload, description, and last-seen location/time.
 
 ### Post Found Item Form  
-**[IMAGE: mockup-post-found.jpg]**
+<p align="center">
+  <img src="public/post-found.png" alt="Posting a Found Item Page"
+</p>
 
-Form for users who found an item — includes where/when found and where it was turned in.
+AI-Generated Mockup form for users who found an item. Includes where/when found and where it was turned in.
 
 ### Item Details Page  
-**[IMAGE: mockup-item-details.jpg]**
+<p align="center">
+  <img src="public/item-detail.png" alt="Item Details Page"
+</p>
 
-Shows full details about one item (photo, description, contact, notify owner button).
+AI-Generated Mockup shows full details about one item (photo, description, contact, notify owner button).
 
 ### Recovery Instructions  
-**[IMAGE: mockup-recovery.jpg]**
+**Recovery Overview**
+<p align="left">
+  <img src="public/item-detail.png" width="700" alt="Item Recovery Instructions"
+</p>
+
+AI-Generated Mockup of the item recovery instructions page, giving brief steps.
+
+**1. Turning in the Item**
+<p align="left">
+  <img src="public/locations.png" width="700" alt="Locations Information Page"
+</p>
+
+AI-Generated Mockup of a page detailing the locations available for item pickups.
+
+**2. Staff Verifies the Item**
+<p align="left">
+  <img src="public/staff-verify.png" width="700" alt="Item Verification by Staff Page"
+</p>
+
+AI-Generated Mockup of the item verification page, detailing the current process of verification by staff.
 
 Step-by-step instructions for turning items in and recovering them through UH offices.
 
 ### Locations & Offices Directory  
-**[IMAGE: mockup-locations.jpg]**
+<p align="center">
+  <img src="public/map-locations.png" alt="Page with available office and a map"
+</p>
 
-Lists official UH drop-off offices (Campus Center, Library, etc.) with map links.
+AI-Generated Mockup that lists official UH drop-off offices (Campus Center, Library, etc.) with map links.
 
 ---
 
@@ -185,33 +225,8 @@ Lists official UH drop-off offices (Campus Center, Library, etc.) with map links
 
 ## 🚀 Deployment
 
-- **Live Site:** https://manoa-lost-found.github.io/manoa-lost-found/  
-- **Repository:** https://github.com/manoa-lost-found/manoa-lost-found
-
-**GitHub Pages configuration:**
-- **Source:** *Deploy from a branch*  
-- **Branch:** `Project-page`  
-- **Folder:** `/docs`  
-- **Entrypoint:** `docs/index.md`  
-- **Images:** stored under `docs/images/`, referenced as `images/...`
-
----
-
-## 🧱 Repository Structure
-
-/docs/
-index.md
-images/
-mockup-landing.jpg
-mockup-feed.jpg
-mockup-dashboard.jpg
-mockup-post-lost.jpg
-mockup-post-found.jpg
-mockup-item-details.jpg
-mockup-recovery.jpg
-mockup-locations.jpg
-/src/ # (future implementation)
-/README.md # (link to live site)
+- **Live Site:** https://manoa-lost-and-found.vercel.app/  
+- **Repository:** https://github.com/manoa-lost-found/manoa-lost-and-found
 
 ## ⚠️ Risks & Mitigations
 
