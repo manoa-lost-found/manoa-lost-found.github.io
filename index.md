@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://manoa-lost-found.github.io"><b>Live Site</b></a> ·
   <a href="https://github.com/orgs/manoa-lost-found/repositories"><b>View on GitHub</b></a> ·
-  <a href="https://github.com/manoa-lost-found/manoa-lost-found/issues/new"><b>Open an Issue</b></a>
+  <a href="https://github.com/manoa-lost-found/manoa-lost-found/issues/new"><b>Open an Issue</b></a> ·
   <a href="https://docs.google.com/document/d/1SYR9UNlJHreSRPiQces7M1lXAMndSw5lAGJjuAcbBvU/edit?usp=sharing"><b>Team Contract</b></a>
 </p>
 
