@@ -21,7 +21,6 @@
 ---
 
 ## Table of Contents
-- [Deployment] (#-deployment)
 - [Overview](#-overview)
 - [Roles & Capabilities](#-roles--capabilities)
 - [App Features (M1 Scope)](#-app-features-m1-scope)
