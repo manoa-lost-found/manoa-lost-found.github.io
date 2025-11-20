@@ -3,7 +3,7 @@
 <p align="center"><em>A UH Mānoa community app to report, browse, and recover lost items — built by students for students.</em></p>
 
 <p align="center">
-  <a href="https://manoa-lost-found.github.io/manoa-lost-found/"><b>Live Site</b></a> ·
+  <a href="https://manoa-lost-found.github.io"><b>Live Site</b></a> ·
   <a href="https://github.com/manoa-lost-found/manoa-lost-found"><b>View on GitHub</b></a> ·
   <a href="https://github.com/manoa-lost-found/manoa-lost-found/issues/new"><b>Open an Issue</b></a>
 </p>
