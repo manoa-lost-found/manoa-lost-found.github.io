@@ -110,76 +110,56 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 ## 👣 User Guide (Walkthrough)
 
 ### Landing Page  
-<p align="center">
-  <img src="public/landing.png" alt="Landing Page"
-  <img src="public/user-signin.png" alt="User Sign in Page">
-</p>
+![Landing Page](public/landing.png)
+![Sign In Page](public/user-signin.png)
 
 Landing → Login (UH SSO) → Personalized Dashboard.
 
 ### Lost/Found Feed with Filters  
-<p align="center">
-  <img src="public/user-feed.png" alt="User Items Feed Page"
-</p>
+![Items Feed Page](public/user-feed.png)
 
 Shows Lost and Found items with filters (category, date, building, keyword).
 
 ### User Dashboard (My Lost / My Found / Matches)  
-<p align="center">
-  <img src="public/mockup-dashboard.png" alt="User Dashboard Mockup"
-</p>
+![Dashboard Page](public/mockup-dashboard.png)
 
 AI-Generated Mockup that displays the user’s Lost and Found posts plus alerts for matches.
 
 ### Post Lost Item Form  
-<p align="center">
-  <img src="public/post-lost.png" alt="Posting a Lost Item Page"
-</p>
+![Post Lost Item Page](public/post-lost.png)
 
 AI-Generated Mockup form to report a lost item with photo upload, description, and last-seen location/time.
 
-### Post Found Item Form  
-<p align="center">
-  <img src="public/post-found.png" alt="Posting a Found Item Page"
-</p>
+### Post Found Item Form
+![Post Found Item Page](public/post-found.png)
 
 AI-Generated Mockup form for users who found an item. Includes where/when found and where it was turned in.
 
-### Item Details Page  
-<p align="center">
-  <img src="public/item-detail.png" alt="Item Details Page"
-</p>
+### Item Details Page
+![Item Details Page](public/item-detail.png)
 
 AI-Generated Mockup shows full details about one item (photo, description, contact, notify owner button).
 
 ### Recovery Instructions  
 **Recovery Overview**
-<p align="left">
-  <img src="public/item-detail.png" width="700" alt="Item Recovery Instructions"
-</p>
+<img src="public/item-detail.png" width="700" />
 
 AI-Generated Mockup of the item recovery instructions page, giving brief steps.
 
 **1. Turning in the Item**
-<p align="left">
-  <img src="public/locations.png" width="700" alt="Locations Information Page"
-</p>
+<img src="public/locations.png" width="700" />
 
 AI-Generated Mockup of a page detailing the locations available for item pickups.
 
 **2. Staff Verifies the Item**
-<p align="left">
-  <img src="public/staff-verify.png" width="700" alt="Item Verification by Staff Page"
-</p>
+<img src="public/staff-verify.png" width="700" />
 
 AI-Generated Mockup of the item verification page, detailing the current process of verification by staff.
 
 Step-by-step instructions for turning items in and recovering them through UH offices.
 
 ### Locations & Offices Directory  
-<p align="center">
-  <img src="public/map-locations.png" alt="Page with available office and a map"
-</p>
+![Map Locations Page](public/map-locations.png)
 
 AI-Generated Mockup that lists official UH drop-off offices (Campus Center, Library, etc.) with map links.
 
