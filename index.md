@@ -96,6 +96,8 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 - Notification system for users
 - Admin functions
 
+> M2 focuses on **implementing more user functions**
+
 ## ➡️ Future Features
 - Notification system for potential matches
 - Admin verification dashboard
