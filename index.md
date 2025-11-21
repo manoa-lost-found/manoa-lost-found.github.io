@@ -24,6 +24,7 @@
 - [Overview](#-overview)
 - [Roles & Capabilities](#-roles--capabilities)
 - [App Features (M1 Scope)](#-app-features-m1-scope)
+- [App Features (M2 Scope)](#-app-features-m2-scope)
 - [User Guide (Mockup Walkthrough)](#-user-guide-mockup-walkthrough)
 - [Mockups](#%EF%B8%8F-mockups)
 - [Data & Status Model (Draft)](#%EF%B8%8F-data--status-model-draft)
@@ -82,6 +83,10 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 - Create/Edit/Delete posts with photo uploads
 
 > M1 focuses on **design and functionality**
+
+## 💡 App Features (M2 Scope)
+
+<a href="https://github.com/orgs/manoa-lost-found/projects/2/views/1"><b>M2 Project Page</b></a>
 
 ## ➡️ Future Features
 - Notification system for potential matches
