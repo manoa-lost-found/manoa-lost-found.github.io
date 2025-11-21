@@ -88,6 +88,14 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 
 <a href="https://github.com/orgs/manoa-lost-found/projects/2/views/1"><b>M2 Project Page</b></a>
 
+- User Dashboard
+- Pages for detailed item descriptions
+- Item recovery instructions
+- Turning in items instructions
+- Turn-in locations directory
+- Notification system for users
+- Admin functions
+
 ## ➡️ Future Features
 - Notification system for potential matches
 - Admin verification dashboard
@@ -117,6 +125,8 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 ### Landing Page  
 ![Landing Page](public/landing.png)
 ![Sign In Page](public/user-signin.png)
+
+Users must sign in and sign up with an email ending in @hawaii.edu, otherwise the system will reject attempts (our current system in-place for UH SSO login).
 
 Landing → Login (UH SSO) → Personalized Dashboard.
 
