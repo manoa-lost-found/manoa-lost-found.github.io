@@ -21,20 +21,16 @@
 ---
 
 ## Table of Contents
-- [Overview](#-overview)
-- [Roles & Capabilities](#-roles--capabilities)
-- [App Features (M1 Scope)](#-app-features-m1-scope)
-- [App Features (M2 Scope)](#-app-features-m2-scope)
-- [User Guide (Mockup Walkthrough)](#-user-guide-mockup-walkthrough)
-- [Mockups](#%EF%B8%8F-mockups)
-- [Data & Status Model (Draft)](#%EF%B8%8F-data--status-model-draft)
-- [Proposed Tech Stack](#-proposed-tech-stack)
-- [Deployment](#-deployment)
-- [Repository Structure](#-repository-structure)
-- [Risks & Mitigations](#%EF%B8%8F-risks--mitigations)
-- [Future Enhancements](#-future-enhancements)
-- [Team](#-team)
-- [Developers Guide](#-developers-guide)
+- [Overview](##-overview)
+- [Roles & Capabilities](##-roles--capabilities)
+- [App Features (M1 Scope)](##-app-features-m1-scope)
+- [App Features (M2 Scope)](##-app-features-m2-scope)
+- [User Guide (Mockup Walkthrough)](##-user-guide-mockup-walkthrough)
+- [Deployment](##-deployment)
+- [Risks & Mitigations](##-risks--mitigations)
+- [Potential Enhancements](##-potential-enhancements)
+- [Team](##-team)
+- [Developers Guide](##-developers-guide)
 
 ---
 
@@ -230,7 +226,7 @@ AI-Generated Mockup that lists official UH drop-off offices (Campus Center, Libr
 ## Developers Guide
 This is the **Manoa Lost & Found Developers Guide**. This section will walk you through the process of donwloading, installing, running, and modifying the system. 
 
-# System Requirements
+### System Requirements
 Make sure you have the following installed:
 - Node.js v18+
 - npm (bundled with Node.js)
@@ -240,13 +236,13 @@ Make sure you have the following installed:
 - A modern web browser (Chrome, Firefox, Safari)
 - Playwright browsers (installed automatically)
 
-# Downloading the Project
+### Downloading the Project
 Clone the repository:
 ``
 git clone https://github.com/<your-org>/<your-project>.git
 cd manoa-lost-and-found
 ``
-# Environment Setup
+### Environment Setup
 Create a .env file in the project root and paste in your environment variables from **Vercel Postgres and NextAuth**.
 
 Example:
@@ -270,13 +266,13 @@ DATABASE_URL="${POSTGRES_PRISMA_URL}"
 On Vercel, you must add these variables manually under:
 Settings → Environment Variables.
 
-# Installing Dependencies
+### Installing Dependencies
 Install all project dependencies:
 ``
 npm install
 ``
 
-# Database Setup (Prisma)
+### Database Setup (Prisma)
 Generate the Prisma client:
 ``
 npx prisma generate
@@ -290,12 +286,12 @@ Seed the database (adds an admin + a normal UH user + default items):
 npx prisma db seed
 ``
 
-# Running the Application
+### Running the Application
 Start the development server:
 ``
 npm run dev
 ``
-# Project Structure
+### Project Structure
 ``
 app/                    → Next.js 14 App Router pages & layouts
   api/                  → Server API routes (POST, GET, DELETE...)
@@ -310,7 +306,7 @@ public/                 → Images & static files
 tests/                  → Playwright tests
 styles/                 → Global Tailwind/CSS
 ``
-# Modifying the System
+### Modifying the System
 **Updating the Navbar**
 ```
 components/Navbar.tsx
@@ -369,7 +365,7 @@ All protected pages use:
 getServerSession(authOptions)
 ``
 
-# Testing
+### Testing
 **Playwright Tests (Availability)**
 To run Playwright tests:
 ``
@@ -385,13 +381,13 @@ The tests cover:
 - Protected routes redirect correctly
 - Admin pages only load for admin users
 
-# Continuous Integration
+### Continuous Integration
 Your GitHub Actions workflow automatically runs on each push to main:
 - ESLint
 - Playwright tests
 - Install & build
 
-# Deployment
+### Deployment
 Deployment uses Vercel.
 
 Steps:
@@ -401,7 +397,7 @@ Steps:
 4. Press “Deploy” or wait for auto-deploy on push
 5. Confirm PostgreSQL database is connected (Neon/Vercel Postgres)
 
-# Contributing Workflow
+### Contributing Workflow
 Standard Issue Driven Project Management workflow:
 ``
 git checkout -b issue-XX-brief-description
