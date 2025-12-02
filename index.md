@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://manoa-lost-found.github.io"><b>Live Site</b></a> ·
   <a href="https://github.com/orgs/manoa-lost-found/repositories"><b>View on GitHub</b></a> ·
-  <a href="https://github.com/manoa-lost-found/manoa-lost-found/issues/new"><b>Open an Issue</b></a> ·
+  <a href="https://github.com/manoa-lost-found/manoa-lost-and-found/issues"><b>Open an Issue</b></a> ·
   <a href="https://docs.google.com/document/d/1SYR9UNlJHreSRPiQces7M1lXAMndSw5lAGJjuAcbBvU/edit?usp=sharing"><b>Team Contract</b></a>
 </p>
 
@@ -13,6 +13,9 @@
   <img alt="Milestone" src="https://img.shields.io/badge/Milestone-M2-blue" />
   <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-live-brightgreen" />
   <img alt="Status" src="https://img.shields.io/badge/Status-Proposal%20%2F%20Mockups-orange" />
+  <a href="https://github.com/manoa-lost-found/manoa-lost-found/actions/workflows/ci.yml">
+    <img alt="CI" src="https://github.com/manoa-lost-found/manoa-lost-found/actions/workflows/ci.yml/badge.svg" />
+  </a>
 </p>
 
 **Proposers:** Jermaine Bruno • Michael Lau • Brandon Nguyen • Edward Uzueta • Justin Lai  
