@@ -186,8 +186,8 @@ AI-Generated Mockup that lists official UH drop-off offices (Campus Center, Libr
 
 ## Deployment
 
-- **Live Site:** https://manoa-lost-and-found.vercel.app/  
-- **Repository:** https://github.com/manoa-lost-found/manoa-lost-and-found
+- **Live Site:** <a href="https://manoa-lost-and-found.vercel.app/">https://manoa-lost-and-found.vercel.app</a>
+- **Repository:** <a href="https://github.com/manoa-lost-found/manoa-lost-and-found">https://github.com/manoa-lost-found/manoa-lost-and-found</a>
 
 ## Risks & Mitigations
 
