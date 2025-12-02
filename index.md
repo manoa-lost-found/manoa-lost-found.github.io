@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <img alt="Milestone" src="https://img.shields.io/badge/Milestone-M1-blue" />
+  <img alt="Milestone" src="https://img.shields.io/badge/Milestone-M2-blue" />
   <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-live-brightgreen" />
   <img alt="Status" src="https://img.shields.io/badge/Status-Proposal%20%2F%20Mockups-orange" />
 </p>
 
 **Proposers:** Jermaine Bruno • Michael Lau • Brandon Nguyen • Edward Uzueta • Justin Lai  
-**Date:** November 20, 2025
+**Date:** December 2, 2025
 
 ---
 
@@ -34,16 +34,17 @@
 - [Risks & Mitigations](#%EF%B8%8F-risks--mitigations)
 - [Future Enhancements](#-future-enhancements)
 - [Team](#-team)
+- [Developers Guide](#-developers-guide)
 
 ---
 
-## 📘 Overview
+##  Overview
 
 ### The Problem
-Each semester, UH Mānoa students lose countless items — IDs, water bottles, textbooks, AirPods, and other valuables. While the university technically has a Lost & Found system, it’s inefficient and fragmented. The current process involves emailing departments, calling offices, or physically visiting locations like Campus Center or the Library. There’s no centralized platform for checking updates, leaving students unsure if their lost items will ever be found.
+Each semester, UH Manoa students lose countless items — IDs, water bottles, textbooks, AirPods, and other valuables. While the university technically has a Lost & Found system, it’s inefficient and fragmented. The current process involves emailing departments, calling offices, or physically visiting locations like Campus Center or the Library. There’s no centralized platform for checking updates, leaving students unsure if their lost items will ever be found.
 
 ### The Solution
-**Manoa Lost & Found** is a centralized digital platform that unifies reporting and recovering lost items across UH Mānoa. Students and staff can:
+**Manoa Lost & Found** is a centralized digital platform that unifies reporting and recovering lost items across UH Manoa. Students and staff can:
 - Post **Lost** or **Found** items with descriptions, images, and locations.
 - Receive **notifications** when potential matches are found.
 - Use **UH authentication** for security and campus-only access.
@@ -53,19 +54,19 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 
 ---
 
-## 👥 Roles & Capabilities
+## Roles & Capabilities
 
-### 🧑‍🎓 Users (Students & Staff)
+### Users (Students & Staff)
 - Create **Lost Item** reports including photo, category, description, and last-seen location/time.
 - Set **alerts/preferences** (keywords, buildings, or item types).
 - Access a **personal dashboard** showing “My Lost Items,” “My Found Items,” and “Matches & Alerts.”
 
-### 🧾 Finders (Any Authenticated User)
+### Finders (Any Authenticated User)
 - Post **Found Item** reports (photo, where/when found, where turned in).
 - Use an in-app **“How to Turn In Items”** page listing official drop-off offices and instructions.
 - Notify the rightful owner securely via UH email without direct contact.
 
-### 🛠️ Admins (Campus Center / Library Staff)
+### Admins (Campus Center / Library Staff)
 - **Verify** items received at official drop-off points.
 - Update item status (Received → Ready for Pickup → Recovered).
 - **Flag duplicates**, moderate posts, and manage user roles.
@@ -73,7 +74,7 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 
 ---
 
-## 💡 App Features (M1 Scope)
+## App Features (M1 Scope)
 
 <a href="https://github.com/orgs/manoa-lost-found/projects/1/views/7"><b>M1 Project Page</b></a>
 
@@ -84,21 +85,21 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 
 > M1 focuses on **design and functionality**
 
-## 💡 App Features (M2 Scope)
+## App Features (M2 Scope)
 
 <a href="https://github.com/orgs/manoa-lost-found/projects/2/views/1"><b>M2 Project Page</b></a>
 
 - User Dashboard
 - Pages for detailed item descriptions
+- Admin functions
+
 - Item recovery instructions
 - Turning in items instructions
 - Turn-in locations directory
-- Notification system for users
-- Admin functions
 
 > M2 focuses on **implementing more user functions**
 
-## ➡️ Future Features
+## Future Features
 - Notification system for potential matches
 - Admin verification dashboard
 - “How to Turn In Items” instructions page  
@@ -106,7 +107,7 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 
 ---
 
-## 👣 User Guide (Mockup Walkthrough)
+## User Guide (Mockup Walkthrough)
 
 1. **Landing → Login (UH SSO)** → Personalized **Dashboard**.  
 2. **Report Lost Item**  
@@ -122,9 +123,9 @@ Each semester, UH Mānoa students lose countless items — IDs, water bottles, t
 
 ---
 
-## 👣 User Guide (Walkthrough)
+## User Guide (Walkthrough)
 
-### Landing Page  
+### Landing Page
 ![Landing Page](public/landing.png)
 ![Sign In Page](public/user-signin.png)
 
@@ -133,29 +134,34 @@ Users must sign in and sign up with an email ending in @hawaii.edu, otherwise th
 Landing → Login (UH SSO) → Personalized Dashboard.
 
 ### Lost/Found Feed with Filters  
-![Items Feed Page](public/user-feed.png)
+![Items Feed Page](public/item-feed.png)
 
-Shows Lost and Found items with filters (category, date, building, keyword).
+Shows Lost and Found items with filters (category, date, building, keyword):
+- Displays all student-created lost and found posts with an image, tags, status, and brief sentence
+- Users can click the '**View details**' button to open the full post with longer descriptions
 
 ### User Dashboard (My Lost / My Found / Matches)  
-![Dashboard Page](public/mockup-dashboard.png)
+![Dashboard Page](public/user-dashboard.png)
 
-AI-Generated Mockup that displays the user’s Lost and Found posts plus alerts for matches.
+Displays the user’s Lost and Found posts plus alerts for matches
+- Users can view and edit their posts quickly and efficiently
 
 ### Post Lost Item Form  
 ![Post Lost Item Page](public/post-lost.png)
 
-AI-Generated Mockup form to report a lost item with photo upload, description, and last-seen location/time.
+Form to report a lost item with photo upload, description, and last-seen location/time.
 
 ### Post Found Item Form
 ![Post Found Item Page](public/post-found.png)
 
-AI-Generated Mockup form for users who found an item. Includes where/when found and where it was turned in.
+Form for users who found an item. Includes where/when found and where it was turned in.
 
 ### Item Details Page
-![Item Details Page](public/item-detail.png)
+![Item Details Page](public/item-details.png)
 
-AI-Generated Mockup shows full details about one item (photo, description, contact, notify owner button).
+Shows full details about one item (photo, description, contact).
+- Designed to be an optional place for users to include more information about an item that they have found or lost
+- Allows for more specific identification in cases where similar items may be found
 
 ### Recovery Instructions  
 **Recovery Overview**
@@ -182,49 +188,12 @@ AI-Generated Mockup that lists official UH drop-off offices (Campus Center, Libr
 
 ---
 
-## 🗃️ Data & Status Model (Draft)
-
-### **Item**
-
-| Field | Type | Description |
-|------|-----|-------------|
-| `type` | enum(`lost`, `found`) | Whether the item is lost or found |
-| `category` | string | e.g., Electronics, Books, Clothing, Bottle, Misc |
-| `description` | text | Details about the item |
-| `photo[]` | image | Uploaded images |
-| `location` | string | Where item was last seen / where turned in |
-| `status` | enum(`Open`, `Received`, `Ready for Pickup`, `Recovered`) | Progress of item |
-| `timestamps` | datetime | `createdAt`, `updatedAt` |
-| `ownerId` / `finderId` / `verifiedBy` | string | UH user IDs for each role |
-
-### **Location**
-- `name`, `hours`, `contact`, `mapLink`
-
-### **AlertPreference**
-- `userId`, `keywords[]`, `categories[]`, `buildings[]`
-
----
-
-## 🧰 Proposed Tech Stack
-
-| Component | Technology |
-|---|---|
-| **Frontend** | React (Next.js) or Meteor + React |
-| **Backend** | Node.js / Express |
-| **Database** | MongoDB or Firebase Firestore |
-| **Auth** | UH CAS / UH OIDC (campus SSO) |
-| **Storage** | Cloud bucket for images |
-| **Maps** | UH Campus Map or Google Maps |
-| **Notifications** | UH email + in-app alerts |
-
----
-
-## 🚀 Deployment
+## Deployment
 
 - **Live Site:** https://manoa-lost-and-found.vercel.app/  
 - **Repository:** https://github.com/manoa-lost-found/manoa-lost-and-found
 
-## ⚠️ Risks & Mitigations
+## Risks & Mitigations
 
 | Risk | Mitigation |
 |---|---|
@@ -236,7 +205,7 @@ AI-Generated Mockup that lists official UH drop-off offices (Campus Center, Libr
 
 ---
 
-## 🌱 Future Enhancements
+## Potential Enhancements
 
 - AI synonym/fuzzy search (e.g., “AirPods” ≈ “Apple earbuds”)  
 - QR poster generator linking to item pages  
@@ -246,7 +215,7 @@ AI-Generated Mockup that lists official UH drop-off offices (Campus Center, Libr
 
 ---
 
-## 👨‍💻 Team
+## Team
 
 | Name | Focus |
 |---|---|
@@ -258,7 +227,192 @@ AI-Generated Mockup that lists official UH drop-off offices (Campus Center, Libr
 
 ---
 
-<p align="center"><sub>Made with ❤️ by UH Mānoa students — inspired by Bowfolios/Techfolios.</sub></p>
+## Developers Guide
+This is the **Manoa Lost & Found Developers Guide**. This section will walk you through the process of donwloading, installing, running, and modifying the system. 
+
+# System Requirements
+Make sure you have the following installed:
+- Node.js v18+
+- npm (bundled with Node.js)
+- Git (version control)
+- Visual Studio Code (recommended)
+- PostgreSQL (via Neon/Vercel Postgres)
+- A modern web browser (Chrome, Firefox, Safari)
+- Playwright browsers (installed automatically)
+
+# Downloading the Project
+Clone the repository:
+``
+git clone https://github.com/<your-org>/<your-project>.git
+cd manoa-lost-and-found
+``
+# Environment Setup
+Create a .env file in the project root and paste in your environment variables from **Vercel Postgres and NextAuth**.
+
+Example:
+``
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_SECRET="your-secret-here"
+
+POSTGRES_DATABASE="verceldb"
+POSTGRES_HOST="***"
+POSTGRES_PASSWORD="***"
+POSTGRES_USER="default"
+
+POSTGRES_PRISMA_URL="postgres://..."
+POSTGRES_URL_NON_POOLING="postgres://..."
+POSTGRES_URL_NO_SSL="postgres://..."
+
+DATABASE_URL="${POSTGRES_PRISMA_URL}"
+``
+
+**Important**:
+On Vercel, you must add these variables manually under:
+Settings → Environment Variables.
+
+# Installing Dependencies
+Install all project dependencies:
+``
+npm install
+``
+
+# Database Setup (Prisma)
+Generate the Prisma client:
+``
+npx prisma generate
+``
+Push the schema to the database:
+``
+npx prisma db push
+``
+Seed the database (adds an admin + a normal UH user + default items):
+``
+npx prisma db seed
+``
+
+# Running the Application
+Start the development server:
+``
+npm run dev
+``
+# Project Structure
+``
+app/                    → Next.js 14 App Router pages & layouts
+  api/                  → Server API routes (POST, GET, DELETE...)
+  dashboard/            → Logged-in user dashboard
+  list/                 → Items feed
+  report/               → Report Lost / Report Found pages
+  item/[id]/            → Item detail + item edit pages
+components/             → Reusable UI components (Navbar, Cards, etc.)
+lib/                    → Prisma, authentication, helper logic
+prisma/                 → Prisma schema + seed script
+public/                 → Images & static files
+tests/                  → Playwright tests
+styles/                 → Global Tailwind/CSS
+``
+# Modifying the System
+**Updating the Navbar**
+```
+components/Navbar.tsx
+```
+- Add or remove navigation items
+- Show/hide links based on session login state
+- Display the UH user email and role
+- Link to the Admin Panel only if role = ADMIN
+
+**Adding New Pages**
+Create a folder inside app/:
+``
+app/campus-map/page.tsx
+``
+This automatically becomes available at:
+``
+/campus-map
+``
+All pages use the App Router, React Server Components, and TypeScript.
+
+**Updating the Database Schema**
+Modify:
+``
+prisma/schema.prisma
+``
+Then apply your changes:
+``
+npx prisma db push
+npx prisma generate
+``
+If you change enums or relations, regenerate again.
+
+**Creating API Routes**
+API routes live in:
+``
+app/api/<route>/route.ts
+``
+Example:
+app/api/items/add/route.ts
+``
+Routes typically export POST, GET, or DELETE handlers.
+
+**Updating Authentification**
+Authentication logic is defined in:
+``
+lib/authOptions.ts
+``
+From here you can:
+- Restrict routes by user role
+- Limit access to /admin pages
+- Modify sign-in behavior
+- Change session callbacks
+
+All protected pages use:
+``
+getServerSession(authOptions)
+``
+
+# Testing
+**Playwright Tests (Availability)**
+To run Playwright tests:
+``
+npx playwright test
+``
+To run in headed mode:
+``
+npx playwright test --headed
+``
+The tests cover:
+- All pages load
+- Forms accept valid input
+- Protected routes redirect correctly
+- Admin pages only load for admin users
+
+# Continuous Integration
+Your GitHub Actions workflow automatically runs on each push to main:
+- ESLint
+- Playwright tests
+- Install & build
+
+# Deployment
+Deployment uses Vercel.
+
+Steps:
+1. Push your code to GitHub
+2. Connect your repo to Vercel
+3. Add environment variables in Vercel settings
+4. Press “Deploy” or wait for auto-deploy on push
+5. Confirm PostgreSQL database is connected (Neon/Vercel Postgres)
+
+# Contributing Workflow
+Standard Issue Driven Project Management workflow:
+``
+git checkout -b issue-XX-brief-description
+git commit -m issue-xx: "Added feature"
+git push -u origin feature/some-feature
+``
+Open a Pull Request → link the issue → move card on project board → get review → merge.
+
+---
+
+<p align="center"><sub>Made with ❤️ by UH Manoa students — inspired by Bowfolios/Techfolios.</sub></p>
 
 <p align="center">
   <a href="https://github.com/manoa-lost-found/manoa-lost-found/edit/Project-page/docs/index.md">✏️ Edit this page on GitHub</a>
