@@ -14,7 +14,7 @@
   <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-live-brightgreen" />
   <img alt="Status" src="https://img.shields.io/badge/Status-Proposal%20%2F%20Mockups-orange" />
   <a href="https://github.com/manoa-lost-found/manoa-lost-found/actions/workflows/ci.yml">
-    <img alt="CI" src="https://github.com/manoa-lost-found/manoa-lost-found/actions/workflows/ci.yml/badge.svg" />
+    <img alt="CI" src="https://github.com/manoa-lost-found/manoa-lost-and-found/actions/workflows/ci.yml/badge.svg" />
   </a>
 </p>
 
