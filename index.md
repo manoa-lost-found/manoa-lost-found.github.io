@@ -14,7 +14,7 @@
   <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-live-brightgreen"/>
   <img alt="Status" src="https://img.shields.io/badge/Status-Proposal%20%2F%20Mockups-orange"/>
   <a href="https://github.com/manoa-lost-found/manoa-lost-found/actions/workflows/ci.yml">
-    <img alt="CI Status"/>
+    <img alt="CI" src="https://github.com/manoa-lost-found/manoa-lost-and-found/actions/workflows/ci.yml/badge.svg"/>
   </a>
 </p>
 
@@ -103,7 +103,7 @@ Each semester, UH Manoa students lose countless items — IDs, water bottles, te
 - Admin functions
 - Item recovery instructions
 - Turning in items instructions
-- Turn-in locations directory
+- Turn-in Locations directory (Campus Center, Library, etc.)  
 
 > M2 focuses on **implementing more user functions**
 
@@ -114,11 +114,13 @@ Each semester, UH Manoa students lose countless items — IDs, water bottles, te
 <a href="https://github.com/orgs/manoa-lost-found/projects/4/views/1"><b>M3 Project Page</b></a> 
 
 - Notification system for potential matches
-- Admin verification dashboard
-- “How to Turn In Items” instructions page  
-- Locations directory (Campus Center, Library, etc.)  
+- Admin dashboard
+- AI synonym/fuzzy search (e.g., “AirPods” ≈ “Apple earbuds”)  
+- Campus map markers for last-seen and turn-in points  
+- Auto-archive stale posts unless renewed  
+- Recovery metrics (e.g., “123 items reunited this semester”)  
 
-> M2 focuses on **finalizing functionality and aesthetics**
+> M3 focuses on **finalizing functionality and aesthetics**
 
 ---
 
@@ -168,13 +170,13 @@ Displays the user’s Lost and Found posts plus alerts for matches
 
 ### Post Lost Item Form  
 
-![Post Lost Item Page](public/post-lost.png)
+![Post Lost Item Page](public/report-lost.png)
 
 Form to report a lost item with photo upload, description, and last-seen location/time.
 
 ### Post Found Item Form  
 
-![Post Found Item Page](public/post-found.png)
+![Post Found Item Page](public/report-found.png)
 
 Form for users who found an item. Includes where/when found and where it was turned in.
 
@@ -230,16 +232,6 @@ AI-Generated Mockup that lists official UH drop-off offices (Campus Center, Libr
 | Duplicate posts | Simple duplicate detection + admin merge tools |
 | Privacy & safety | No private handoffs; all returns through UH offices |
 | Moderation load | Admin workflows + flags + status updates |
-
----
-
-## Potential Enhancements
-
-- AI synonym/fuzzy search (e.g., “AirPods” ≈ “Apple earbuds”)  
-- QR poster generator linking to item pages  
-- Campus map markers for last-seen and turn-in points  
-- Auto-archive stale posts unless renewed  
-- Recovery metrics (e.g., “123 items reunited this semester”)  
 
 ---
 
