@@ -29,6 +29,7 @@
 - [Roles & Capabilities](#roles--capabilities)
 - [App Features (M1 Scope)](#app-features-m1-scope)
 - [App Features (M2 Scope)](#app-features-m2-scope)
+- [App Features (M3 Scope)](#app-features-m3-scope)
 - [User Guide (Mockup Walkthrough)](#user-guide-mockup-walkthrough)
 - [Deployment](#deployment)
 - [Risks & Mitigations](#risks--mitigations)
@@ -108,12 +109,16 @@ Each semester, UH Manoa students lose countless items — IDs, water bottles, te
 
 ---
 
-## Future Features
+## App Features (M3 Scope)
+
+<a href="https://github.com/orgs/manoa-lost-found/projects/4/views/1"><b>M3 Project Page</b></a> 
 
 - Notification system for potential matches
 - Admin verification dashboard
 - “How to Turn In Items” instructions page  
 - Locations directory (Campus Center, Library, etc.)  
+
+> M2 focuses on **finalizing functionality and aesthetics**
 
 ---
 
