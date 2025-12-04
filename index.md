@@ -452,6 +452,7 @@ The tests cover:
 - Forms accept valid input
 - Protected routes redirect correctly
 - Admin pages only load for admin users
+
 ---
 
 ## Continuous Integration
