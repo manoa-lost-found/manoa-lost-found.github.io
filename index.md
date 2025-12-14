@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="Milestone" src="https://img.shields.io/badge/Milestone-M2-blue"/>
+  <img alt="Milestone" src="https://img.shields.io/badge/Milestone-M3-blue"/>
   <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-live-brightgreen"/>
   <img alt="Status" src="https://img.shields.io/badge/Status-Proposal%20%2F%20Mockups-orange"/>
   <a href="https://github.com/manoa-lost-found/manoa-lost-and-found/actions/workflows/ci.yml">
@@ -19,7 +19,7 @@
 </p>
 
 **Proposers:** Jermaine Bruno • Michael Lau • Brandon Nguyen • Edward Uzueta • Justin Lai  
-**Date:** December 2, 2025
+**Date:** December 13, 2025
 
 ---
 
@@ -114,10 +114,6 @@ Each semester, UH Manoa students lose countless items — IDs, water bottles, te
 
 - Notification system for potential matches
 - Admin dashboard
-- AI synonym/fuzzy search (e.g., “AirPods” ≈ “Apple earbuds”)  
-- Campus map markers for last-seen and turn-in points  
-- Auto-archive stale posts unless renewed  
-- Recovery metrics (e.g., “123 items reunited this semester”)  
 
 > M3 focuses on **finalizing functionality and aesthetics**
 
@@ -166,6 +162,19 @@ Shows Lost and Found items with filters (category, date, building, keyword):
 Displays the user’s Lost and Found posts plus alerts for matches
 
 - Users can view and edit their posts quickly and efficiently
+- Users can delete posts and delete their account from this page
+
+### Admin Dashboard 
+
+![Admin Dashboard Page](public/admin-dashboard.png)
+
+Displays the Admin's various site functions
+
+- Admin can view all posts, edit them, change status, and delete posts
+- Admin can view all registered accounts, delete them, ban them, as well as promote/demote them\
+- Admin can edit site settings
+
+![Admin All Items Page](public/admin-all.png)
 
 ### Post Lost Item Form  
 
@@ -191,27 +200,29 @@ Shows full details about one item (photo, description, contact).
 ### Recovery Instructions  
 
 **Recovery Overview**  
-<img src="public/item-detail.png" width="700" />
+<img src="public/recovery-instructions.png" width="700" />
 
-AI-Generated Mockup of the item recovery instructions page, giving brief steps.
+- Detailed instructions of the recovery process for picking up lost items
+- Locations directory for ease of access on the Map
+- Admins will verify items at designated locations
 
-**1. Turning in the Item**  
-<img src="public/locations.png" width="700" />
+---
 
-AI-Generated Mockup of a page detailing the locations available for item pickups.
+## Community Feedback
+We gathered feedback from 5 UH community members who tested the application and reviewed the interface, content, and user flow.
 
-**2. Staff Verifies the Item**  
-<img src="public/staff-verify.png" width="700" />
+### Overall Impressions
+Testers found the concept intuitive and appreciated the centralized approach to lost-and-found reporting. The Lost/Found feed and dashboard structure were easy to understand, and users felt the app addressed a real campus need.
 
-AI-Generated Mockup of the item verification page, detailing the current process of verification by staff.
+### Common Feedback Themes
+- Users suggested improving visual clarity by spacing out dense instruction sections, reducing heavy button drop-shadows, and using more consistent image quality on the home page. Collapsible FAQ sections were recommended to reduce visual clutter.
+- Some testers noted that certain FAQ entries felt overly casual (e.g., emojis in serious safety-related content). They suggested reserving a lighter tone for motivational sections and using a more professional tone for security-related information.
+- Testers encountered a submission error when reporting a lost item and recommended clearer confirmation or error messaging. Minor wording and grammar consistency issues (e.g., “Log in” vs. “Login”) were also identified.
+- Suggestions included adding direct links or contact info for DPS/Admin in relevant sections, linking to campus emergency call box maps, and improving recovery communication (such as notifying item owners when a matching found item is posted).
+- One tester noted that account creation currently allows weak passwords and suggested enforcing basic password requirements for improved security.
 
-Step-by-step instructions for turning items in and recovering them through UH offices.
-
-### Locations & Offices Directory  
-
-![Map Locations Page](public/map-locations.png)
-
-AI-Generated Mockup that lists official UH drop-off offices (Campus Center, Library, etc.) with map links.
+### Takeaways
+This feedback highlighted areas for refinement in UI polish, tone consistency, error handling, and security, while affirming that the core idea and functionality are valuable to the UH Mānoa community. Many of these insights informed planned improvements for later milestones.
 
 ---
 
